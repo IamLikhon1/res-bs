@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/38e969f836.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <div class="container-fluid">
+        <a class="navbar-brand  fw-bold text-primary" href="#">PHero</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-3 ">
+            <a class="nav-link active" aria-current="page" href="#">Overview</a>
+            <a class="nav-link text-dark" href="#">Pages</a>
+            <a class="nav-link text-dark" href="#">Resource</a>
+            <a class="nav-link text-dark" href="#">Docs</a>
+            <div class="text-btn">
+               <div class="d-flex ">
+                <a class="nav-link fw-bold" href="#" >Sign In</a>
+                <button class="btn btn-primary">Buy Now</button>
+               </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- card section -->
+    <section class="container-fluid mt-5 ms-4 d-flex justify-content-center ">
+     <div class="row gap-5 ">
+      <div class="card" style="width: 20rem; height: 33rem;">
+        <img src="images/mountain1.jpg" class="card-img-top" class="img-fluid ">
+        <div class="card-body ">
+          <img src="images/profile1.jpg" class="img-fluid">
+          <div class="mb-5 pb-2 container div">
+            <h2 class="fw-bold text-center "> Harry</h2>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          
+          <div class="text-primary text-center d-flex  justify-content-center gap-4">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; height: 33rem;">
+        <img src="images/mountain3.jpg" class="card-img-top" class="img-fluid">
+        <div class="card-body">
+          <img src="images/profile3.jpg" class="img-fluid">
+          <div class="mb-5 pb-2 container div">
+            <h2 class="fw-bold text-center"> Robert</h2>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          
+          <div class="text-primary text-center d-flex  justify-content-center gap-4">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; height: 33rem;">
+        <img src="images/mountain2.jpg" class="card-img-top" class="img-fluid">
+        <div class="card-body">
+          <img src="images/profile2.jpg" class="img-fluid">
+          <div class="mb-5 pb-2 container div">
+            <h2 class="fw-bold text-center"> Kylie Jenner</h2>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          
+          <div class="text-primary text-center d-flex  justify-content-center gap-4">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+      <!-- form section -->
+
+    <section class="container-fluid ms-5  border border-primary mt-5 w-75"> 
+      <h2 class="fw-bold text-center text-primary mt-2">From</h2>
+      <form class="w-100 m-1">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Username</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+        </div><div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+        </div><div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Enter Password">
+        </div><div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Confirm Password">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+
+        </div>
+        <button class=" mb-2 btn btn-primary w-100">Send</button>
+
+      </form>
+    </section>
+    <!-- card section -->
+    <section class="container-fluid text-center mt-3   d-flex justify-content-center  ">
+      <div class="card mb-3" style="width: 22rem; height: 26rem;">
+        <div class="card-body ">
+          <h5 class=" display-4 card-title fw-bold text-primary fw-bold text-center ">Sign In</h5>
+          <input class="btn border w-100 mt-5 " type="email" name="" id="" placeholder=" Your Email"> <br>
+          <input class="btn border w-100 mt-3" type="password" name="" id="" placeholder="Your Password"> <br>
+          <input class="mt-4" type="checkbox" name="" id=""> Accept <a href="#">Term's & Condition</a> <br>
+        <button class=" mt-4 btn btn-primary w-100 border rounded-pill mt-2">Sign Up</button>
+        </div>
+        <div class="container-fluid  text-info  d-flex  justify-content-center gap-5 mb-5">
+          
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          <i class="fa-brands fa-facebook-f fa-2x"></i>
+          <i class="fa-brands fa-google fa-2x"></i>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- BS Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

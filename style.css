@@ -1,0 +1,18 @@
+.card-body>img{
+    position: relative;
+    left: 90px;
+    bottom: 70px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.div{
+    position: relative;
+    bottom: 40px;
+}
+.text-btn{
+    position: relative;
+    left: 750px;
+}
+
